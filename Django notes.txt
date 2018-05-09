@@ -1,0 +1,38 @@
+python3 -m venv [venv_name] = create venv
+
+source [venv_name]/bin/activate = activate venv
+
+django-admin startproject mysite .
+
+manage.py = script that helps with management of the site
+
+settings.py = contains the config of the website
+
+urls.py = contains list of patterns used by urlresolver
+
+Timezone PH = 'Asia/Manila'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+python manage.py migrate = create db
+
+python manage.py runserver = start web server
+
+objects = collection of properties and actions
+
+instance variable/attributes = variables within an object
+
+methods = functions within an object
+
+class = blueprint from which you can make objects
+      = doesn't refer to any object
+
+constructor = function that creates an object from a class
+
+Django model = object saved in the database
+
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+
+python manage.py migrate blog
